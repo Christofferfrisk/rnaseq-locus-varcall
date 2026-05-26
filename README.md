@@ -62,6 +62,11 @@ Generates a deterministic 1 kb synthetic reference and two synthetic BAMs (one r
 - [bcftools 1.20](https://samtools.github.io/bcftools/)
 - [micromamba](https://mamba.readthedocs.io/) (base image)
 
+## Author
+
+Christoffer Frisk — Department of Cell and Molecular Biology, Uppsala University.
+[ORCID](https://orcid.org/0000-0003-1445-0347) · [ResearchGate](https://www.researchgate.net/profile/Christoffer-Frisk) · [GitHub](https://github.com/Christofferfrisk)
+
 ## License
 
 MIT. See [LICENSE](LICENSE).

@@ -6,7 +6,8 @@ abstract: "Containerised, RNA-seq-aware variant calling at a user-defined locus.
 authors:
   - family-names: Frisk
     given-names: Christoffer
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+    orcid: "https://orcid.org/0000-0003-1445-0347"
+    affiliation: "Department of Cell and Molecular Biology, Uppsala University"
 repository-code: "https://github.com/Christofferfrisk/rnaseq-locus-varcall"
 license: MIT
 version: 0.1.0
