@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deterministically generate a synthetic reference and two SAM files for smoke testing.
+"""Deterministically generate a synthetic reference and two SAM files for the integration test.
 
 Sample A: reference allele only at the variant site.
 Sample B: alternate allele at the variant site (high depth, high BQ/MQ).

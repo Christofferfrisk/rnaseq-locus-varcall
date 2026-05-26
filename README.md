@@ -48,10 +48,10 @@ cd rnaseq-locus-varcall
 docker build -t rnaseq-locus-varcall .
 ```
 
-## Smoke test
+## Integration test
 
 ```bash
-bash test/smoke_test.sh
+bash test/integration_test.sh
 ```
 
 Generates a deterministic 1 kb synthetic reference and two synthetic BAMs (one reference-allele-only, one with an introduced SNP), runs the pipeline inside the container, and asserts that at least one variant is called.

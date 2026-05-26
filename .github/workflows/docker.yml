@@ -33,8 +33,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Smoke test
-        run: IMAGE=rnaseq-locus-varcall:ci bash test/smoke_test.sh
+      - name: Integration test
+        run: IMAGE=rnaseq-locus-varcall:ci bash test/integration_test.sh
 
       - name: Log in to GHCR
         if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v'))

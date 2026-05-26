@@ -25,6 +25,6 @@ docker run --rm -v "$DATA":/data "$IMAGE" \
     --out /data/out.vcf.gz
 
 n=$(docker run --rm -v "$DATA":/data --entrypoint bcftools "$IMAGE" view -H /data/out.vcf.gz | wc -l)
-echo "smoke test called $n variant site(s)"
+echo "integration test called $n variant site(s)"
 [[ "$n" -ge 1 ]] || { echo "FAIL: expected >=1 variant, got $n" >&2; exit 1; }
-echo "smoke test PASSED"
+echo "integration test PASSED"
