@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "rnaseq-locus-varcall"
+abstract: "Containerised, RNA-seq-aware variant calling at a user-defined locus."
+authors:
+  - family-names: Frisk
+    given-names: Christoffer
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/Christofferfrisk/rnaseq-locus-varcall"
+license: MIT
+version: 0.1.0
+date-released: 2026-05-26

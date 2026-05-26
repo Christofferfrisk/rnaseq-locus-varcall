@@ -1,0 +1,10 @@
+test/data/
+*.bam
+*.bai
+*.vcf.gz
+*.vcf.gz.csi
+*.fai
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
